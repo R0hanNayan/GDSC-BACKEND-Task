@@ -31,20 +31,23 @@ app.get("/signUp", function(req, res){
 app.post("/signUp", function(req, res){
     const inputName = req.body.username;
     User.find({}).then(user=>{
+        let flag = true;
         user.forEach(name => {
             if(name._id===inputName){
+                flag = false;
                 res.send("Username already in use! Please try again.");
-            }else{
-                const user = new User({
-                    _id: req.body.username,
-                    password: req.body.password
-                })
-                user.save().then(function(){
-                    console.log("Sign Up Success!");
-                    res.redirect('/');
-                });
             }
         });
+        if(flag===true){
+            const user = new User({
+                _id: inputName,
+                password: req.body.password
+            })
+            user.save().then(function(){
+                console.log("Sign Up Success!");
+                res.redirect('/');
+            });
+        }
     });
 });
 

@@ -1,0 +1,60 @@
+.container{
+    text-align: center;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    margin-top: 250px;
+    margin-left: 20%;
+    margin-right: 20%;
+    background-color: bisque;
+    border-radius: 20px;
+}
+
+.home-btn{
+    display: inline-block;
+}
+
+h1{
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+}
+
+#username{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.btn{
+    font-size: 25px;
+    border-radius: 5px;
+    background-color: grey;
+}
+
+.btn:hover{
+    font-size: 26px;
+}
+
+.log-btn{
+    margin-top: 5px;
+}
+
+.login{
+    border-radius: 20px;
+    text-align: center;
+    padding-top: 80px;
+    padding-bottom: 50px;
+    margin-top: 250px;
+    margin-left: 20%;
+    margin-right: 20%;
+    background-color: bisque;
+}
+
+.signup{
+    border-radius: 20px;
+    text-align: center;
+    padding-top: 80px;
+    padding-bottom: 50px;
+    margin-top: 250px;
+    margin-left: 20%;
+    margin-right: 20%;
+    background-color: bisque;
+}

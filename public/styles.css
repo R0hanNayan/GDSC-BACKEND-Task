@@ -5,8 +5,9 @@
     margin-top: 250px;
     margin-left: 20%;
     margin-right: 20%;
-    background-color: bisque;
+    background-color: rgb(23, 23, 23);
     border-radius: 20px;
+    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12), 0 1px 4px rgba(0, 0, 0, 0.24);
 }
 
 .home-btn{
@@ -14,19 +15,35 @@
 }
 
 h1{
-    font-family: 'Times New Roman', Times, serif;
-    color: black;
+    font-size: 50px;
+    font-family: 'VT323', monospace;
+    color: white
 }
 
 #username{
+    font-family: 'VT323', monospace;
     margin-top: 5px;
     margin-bottom: 5px;
+    border: none;
+    border-radius: 10px;
+    font-size: 25px;
+}
+
+#password{
+    font-family: 'VT323', monospace;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border: none;
+    border-radius: 10px;
+    font-size: 25px;
 }
 
 .btn{
+    font-family: 'VT323', monospace;
     font-size: 25px;
-    border-radius: 5px;
-    background-color: grey;
+    border-radius: 10px;
+    background-color: white;
+    margin-top: 10px;
 }
 
 .btn:hover{
@@ -34,10 +51,11 @@ h1{
 }
 
 .log-btn{
-    margin-top: 5px;
+    margin-top: 10px;
 }
 
 .login{
+    font-family: 'VT323', monospace;
     border-radius: 20px;
     text-align: center;
     padding-top: 80px;
@@ -45,10 +63,12 @@ h1{
     margin-top: 250px;
     margin-left: 20%;
     margin-right: 20%;
-    background-color: bisque;
+    background-color: rgb(22, 22, 22);
+    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12), 0 1px 4px rgba(0, 0, 0, 0.24);
 }
 
 .signup{
+    font-family: 'VT323', monospace;
     border-radius: 20px;
     text-align: center;
     padding-top: 80px;
@@ -56,5 +76,6 @@ h1{
     margin-top: 250px;
     margin-left: 20%;
     margin-right: 20%;
-    background-color: bisque;
+    background-color: rgb(22, 22, 22);
+    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12), 0 1px 4px rgba(0, 0, 0, 0.24);
 }
